@@ -1,0 +1,8 @@
+(library
+ (inline_tests)
+ (name final_project)
+ (libraries batteries)
+ (instrumentation
+  (backend bisect_ppx))
+ (preprocess
+  (pps ppx_inline_test)))

@@ -1,0 +1,464 @@
+commit 136f9f01f0c3956960b825ef1283f190b392df54
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 12:30:33 2024 -0400
+
+    Reverted previous change and implemented move message fix again
+
+commit de53d1a381838e8c566e6304e26d1d27fe4388d6
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 12:25:56 2024 -0400
+
+    Fixed bug where move messages were not printing
+
+commit c26107be50b6292696d0ba8e1e4c2911d28dd78f
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 12:23:31 2024 -0400
+
+    Updated gitlog
+
+commit 9302685a129584c7520c8874a443f1f1378f4271
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 12:17:41 2024 -0400
+
+    Fixed bug with board printing
+    
+    - Fixed horiziontal '-' spacer not extending for the 5x5 board
+
+commit c6a5d84ee4cf83363fd0215651ce84107ead5652
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 12:06:59 2024 -0400
+
+    Added test plan document
+
+commit 063199b03fbb5d1d51f4d76e68b65cf49cf87edb
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 11:43:40 2024 -0400
+
+    Updated gitlog and added install.txt
+
+commit 090a8ed25e87d8dba1f6d15ecc24d725fdc5c5d3
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 11:28:06 2024 -0400
+
+    Removed duplicated documentation
+
+commit d2bc913fcef18c0f4ca3bcff6a1b999f9b16603f
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 11:27:39 2024 -0400
+
+    Formatting and bug fixes
+    
+    - Reduced play_game to less than 20 lines by adding helper functions
+    - Fixed a bug where pick_2_empty can choose the same 2 cells
+
+commit 234e2ca1af4275f6c46199435ea55fa2030967c7
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 11:10:44 2024 -0400
+
+    Minor changes
+    
+    - Formatting and documentation updates
+    - Added 2 test cases for get_score
+    - Removed unused helper functions in board.ml
+
+commit 9fc85d7675321fc784eab904135f305c3ca91d24
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 10:46:16 2024 -0400
+
+    Documentation and formatting updates
+
+commit 1f9793b8bee0481253b8476a6d9eaf127b71657e
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 10:26:43 2024 -0400
+
+    Added help/instruction message
+    
+    - Deleted extra comments
+
+commit 4b682db39c5a0b8d02131812e89cfd2ab8f50274
+Author: dc777 <dc777@cornell.edu>
+Date:   Thu May 16 09:43:38 2024 -0400
+
+    Minor edits
+
+commit 52e821a4e174bd43e48f4d68b000e344dda4c506
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu May 16 09:39:11 2024 -0400
+
+    Updated documentation
+
+commit 73a3e118ab9558731c7b28f3e98b05d583ae4672
+Author: Jonathan Miller <jdm454@cornell.edu>
+Date:   Thu May 16 08:23:23 2024 -0400
+
+    fixed text not being able to be seen after a game. Still has the issue where the entry for the leaderboard name cannot be seen
+
+commit 0a51930efe8384b8a1f23462f20553bb6739b6b6
+Merge: 9826df6 4c46038
+Author: dc777 <dc777@cornell.edu>
+Date:   Wed May 15 21:44:04 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:ab2585/3110-Final-Project
+
+commit 9826df6b887d082c26587aa56ecb159c71f04035
+Author: dc777 <dc777@cornell.edu>
+Date:   Wed May 15 21:42:06 2024 -0400
+
+    added code for more tests
+
+commit 4c46038dfd561c4d139f87b34d1c7433a8640d6f
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Wed May 15 21:22:44 2024 -0400
+
+    Added helper functions to reduce functions to less than 20 lines
+
+commit 3a4bc7975537c4d756432272d64852c7e5831950
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Wed May 15 18:50:19 2024 -0400
+
+    Updated UI
+
+commit 61433bb62f31a7069bccbe2834a2b9424ac20fa4
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Wed May 15 18:16:24 2024 -0400
+
+    Implemented Leaderboard
+    
+    - Implemented the reading, writing, printing, and updating of a leaderboard
+    - Added leaderboards for all game modes
+
+commit d038facbc22b8ccf409568d5b5c138285c3d0ad4
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Wed May 15 16:22:06 2024 -0400
+
+    Implemented score system
+    
+    - Implemented the printing of the score every time the board is printed
+    - Implemented the printing of the score when the user wins, loses, or quits
+    - Implemeneted the increase of the score when the user combines two numbers
+
+commit 4af0799915eb87489dabca49826d9299450fbbce
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Wed May 15 16:00:46 2024 -0400
+
+    Changed at what time the board was printed
+
+commit 6f9132bea79fab0c05c872d5a5677fbab09caf3e
+Author: dc777 <dc777@cornell.edu>
+Date:   Wed May 15 15:29:08 2024 -0400
+
+    Completed minimum test cases(with room for more)
+
+commit 0a9745c7c02d6b0b2414eb9c2980932e57d0b775
+Author: dc777 <dc777@cornell.edu>
+Date:   Wed May 15 11:10:09 2024 -0400
+
+    Made additional tests
+
+commit 2a98774e01910ada19d1f9eeb79755ea0ad22e81
+Author: dc777 <dc777@cornell.edu>
+Date:   Wed May 15 09:52:06 2024 -0400
+
+    Added more win and lose tests. We need some more tests and clean up some code to reach the 1200 line mark.
+
+commit 255ddab92eef5c5713735fe8a6aa72eb6f141816
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Tue May 14 23:39:25 2024 -0400
+
+    Fixed win test 1
+
+commit 1b8e6a90a08dd6c0151de9fcb5148e0262c04a25
+Author: dc777 <dc777@cornell.edu>
+Date:   Tue May 14 23:09:42 2024 -0400
+
+    started the win and lose test cases
+
+commit d89389e3b52f3c9073acd8cd9861b09026c9283f
+Author: dc777 <dc777@cornell.edu>
+Date:   Tue May 14 22:31:44 2024 -0400
+
+    Added additional test cases
+
+commit d54f0e9229f843c2055be5683e4397c5d7a3f5a3
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Tue May 14 14:54:26 2024 -0400
+
+    Implemented alternative game modes.
+    
+    - Modified game.ml and board.ml to support the creation of alternative game modes
+    - Created game_types list in game.ml that holds relevant game data for each type
+    - Implemented 1024 and 65536 game modes.
+
+commit c3774e143c9f28ec0a3d2de4d7c8fb4f6f9a39c4
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Tue May 14 14:00:10 2024 -0400
+
+    Implemented checking of a win and related messages
+
+commit c3e2f80008c13d853d15be5f245d193bd7ddd826
+Author: Jonathan Miller <jdm454@cornell.edu>
+Date:   Tue May 14 03:30:47 2024 -0400
+
+    updated UI and changed entry so that it auto enters after a character is pressed
+
+commit 9aec623c049846121d7f149977fce6a4b3d72bc2
+Author: Jonathan Miller <jdm454@cornell.edu>
+Date:   Mon May 13 22:28:58 2024 -0400
+
+    implemented full game functionality
+
+commit d3172dece9f47a707eab85ed80780e7f8620b004
+Author: dc777 <dc777@cornell.edu>
+Date:   Sat May 11 22:54:08 2024 -0400
+
+    Fixed move_right function. Apologizes for the comments, they are lefted for future references and debugging.
+
+commit 2122d94739151c074e72c5e2d934c6a1ae2aedab
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Fri May 10 21:24:48 2024 -0400
+
+    Implemented to_list and printing the board in actual 2048 colors
+    
+    - to_list now returns an int list list instead of a string
+    - Test cases updated to reflect new to_list
+    - Implemented printing with actual 2048 rgb colors
+
+commit b5d323b39862b4f0cb2bc1018c881cc59e157a13
+Author: dc777 <dc777@cornell.edu>
+Date:   Fri May 10 17:19:44 2024 -0400
+
+    Slightly modified move right and added more test cases. Move right test 6 is not correct due to how the algorithm is implemented.
+
+commit 5882a36f41342539a178ee30d0e98834748d05f4
+Author: dc777 <dc777@cornell.edu>
+Date:   Fri May 10 14:16:39 2024 -0400
+
+    Implemented the move logic for moving right. Need to add the 3 other move functions and the test cases.
+
+commit f1dead49e5eb2db880ff5978d575425b7e6785be
+Author: dc777 <dc777@cornell.edu>
+Date:   Thu May 9 15:41:27 2024 -0400
+
+    Updated the valid move logic, and started the code for the move logic ingame.
+
+commit eb9ba0674229682be0b16bb3062d8007c98973a1
+Author: dc777 <dc777@cornell.edu>
+Date:   Wed May 8 18:11:52 2024 -0400
+
+    Added the correct valid_move logic in comments. Pleasr review, then implement and test.
+
+commit 1543b058b21d2b724b75dbcd6824750a0cb5a0b6
+Author: dc777 <dc777@cornell.edu>
+Date:   Wed May 8 16:50:40 2024 -0400
+
+    Negated the results of check_move
+
+commit bb95c3efd1507003dd0fef0117f75785ff4c450b
+Author: Jonathan Miller <jdm454@cornell.edu>
+Date:   Tue May 7 15:25:09 2024 -0400
+
+    updated move check logic
+
+commit 7f5762167eac3049a0bc9ae4e1a7290dcb06cdcf
+Author: dc777 <dc777@cornell.edu>
+Date:   Fri May 3 09:52:37 2024 -0400
+
+    Added shift_zeros, which is a starting point for the game logic(I don't think it works yet...)
+
+commit 37b663e15cc82ab6e4e4733f846a7fb28689341c
+Author: dc777 <dc777@cornell.edu>
+Date:   Thu May 2 10:16:53 2024 -0400
+
+    Added documentation, cleaned up some code for consistency, and added test cases
+
+commit 584f864dfb250e9f85b363430441f7f18e4760fd
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Wed Apr 24 19:47:52 2024 -0400
+
+    Reverted to_list changes
+
+commit 87199db85236cccf86f5f746888e10e39995e23e
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Wed Apr 24 19:46:14 2024 -0400
+
+    Implemented UI code for multiple game modes
+    
+    - Removed demo UI code
+    - Implemented multiple mode UI Code
+    - Modified print_clr mode
+    - Changed game.ml print_board to to_list and started to implement it (not finished)
+
+commit d107f8505503eccd7e3351bf0ad81f991f2650b4
+Author: dc777 <dc777@cornell.edu>
+Date:   Thu Mar 28 22:23:17 2024 -0400
+
+    created MS2 log
+
+commit 2a9e6c91c833477dedf4335ed15e43a945e9f012
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu Mar 28 21:07:13 2024 -0400
+
+    Finished start_demo and added [with type ...] to Play_Game.
+
+commit b9001f2bf1cf838d9baf6a764f5656da7bcc5a9c
+Author: dc777 <dc777@cornell.edu>
+Date:   Thu Mar 28 19:39:14 2024 -0400
+
+    declared modules in main.ml, but some things still need to be fixed -dc777
+
+commit 1723d07741dde476a0aa3fe5e6961f1328e68bc4
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu Mar 28 19:22:21 2024 -0400
+
+    Attempted to use Play_Game in start_demo (not working)
+
+commit 45d29084611dfb12204e960ca6df321fb0cad5a5
+Author: dc777 <dc777@cornell.edu>
+Date:   Thu Mar 28 18:49:44 2024 -0400
+
+    Implemented the initialization of the game. -dc777
+
+commit 914184a471d2b069733a07412f31e751b610917b
+Merge: cc11194 75232ff
+Author: dc777 <dc777@cornell.edu>
+Date:   Thu Mar 28 17:42:35 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:ab2585/3110-Final-Project
+
+commit cc11194b16febd8c1287789962ec7ed647692b81
+Author: dc777 <dc777@cornell.edu>
+Date:   Thu Mar 28 17:36:53 2024 -0400
+
+    Added the ability to randomly pick empty cells from the list of all empty cells. -dc777
+
+commit 75232ff7ef2513c13d696080a8082b4cbfb9f34e
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu Mar 28 17:26:49 2024 -0400
+
+    Implemented start_demo which will start the game for MS2. Started implementing start_multiple_modes and mode_2048 which will actually be used to start the game.
+
+commit ee2b797431d03f8204d10bfe9ea8959e5ba8a6f7
+Author: Jonathan Miller <jdm454@cornell.edu>
+Date:   Thu Mar 28 14:02:41 2024 -0400
+
+    added documentation to functions in board.ml and board.mli
+
+commit 1d6a982c0021ef91c9bc38f7c7884432fa2cedb0
+Author: dc777 <dc777@cornell.edu>
+Date:   Thu Mar 28 10:31:51 2024 -0400
+
+    Initialized game.ml to build game logic. -dc777
+
+commit 56a29dd416d80e33ddccc5f71481d2c389902710
+Author: dc777 <dc777@cornell.edu>
+Date:   Thu Mar 28 09:52:42 2024 -0400
+
+    Added new functions from board.ml to the interface. -dc777
+
+commit b13743a1dc4b02cc860cc10e0ca0ccf3c892b393
+Author: Jonathan Miller <jdm454@cornell.edu>
+Date:   Thu Mar 28 01:31:35 2024 -0400
+
+    added functions to check if a valid move could be made in both horizontal and vertical directions, and a function to check if the board is full and the user has lost.
+
+commit 6835c8f0c11a13a092bcc7e77c263e3e72690602
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Wed Mar 27 11:59:26 2024 -0400
+
+    Added spectrum to main library and implemented get_input. Started testing color output with spectrum.
+
+commit 98e8bb9eefd3b3cb6a271dae7f3f624fb98de4ac
+Author: dc777 <dc777@cornell.edu>
+Date:   Wed Mar 27 10:44:10 2024 -0400
+
+    Rewrote board.ml to use int array array to represent the board instead int list list. Reimplemented make_board and print_board, and added get_value, set_value, and empty cells. Wrote test cases for all functions. -dc777
+
+commit 2b21a9aa151dd3ce535bec6ca3e39f1c54a8ab8e
+Author: dc777 <dc777@cornell.edu>
+Date:   Wed Mar 27 09:12:37 2024 -0400
+
+    Fixed print test case. -dc777
+
+commit 95b9d807582e519911792db51ea4606cbe00df2f
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Tue Mar 26 21:42:29 2024 -0400
+
+    Delete _coverage directory
+
+commit ad98c1d8f7a1b7830b6feae1a5d9d617bef6b310
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Tue Mar 26 21:42:21 2024 -0400
+
+    Delete _build directory
+
+commit ee02b2cab0fecdf1f2d316d5106e3e00036fde04
+Author: dc777 <dc777@cornell.edu>
+Date:   Tue Mar 26 10:52:55 2024 -0400
+
+    Created a way to get the string representation of the table in print_board. Test case not working - dc777
+
+commit 846f8281f851d1881b8fff8f7602df9e29a60ff1
+Author: dc777 <dc777@cornell.edu>
+Date:   Mon Mar 25 22:25:26 2024 -0400
+
+    Created a testcase for the empty board, which is currently not working and needs to be fixed
+
+commit d65b3ea7064ed889a7be1add91d879280554f14d
+Author: dc777 <dc777@cornell.edu>
+Date:   Mon Mar 25 19:15:49 2024 -0400
+
+    created funtions to create the board. Need to add into the interface and test suite to make sure that it works
+
+commit b0287380cc707619c832126a0e9efdebbc2666e1
+Author: dc777 <dc777@cornell.edu>
+Date:   Mon Mar 25 15:40:03 2024 -0400
+
+    Created the compilation unit board
+
+commit a4a446da6ede274b4c89135dac598e5a75add80c
+Author: dc777 <dc777@cornell.edu>
+Date:   Mon Mar 25 15:26:17 2024 -0400
+
+    Implemented the test suite
+
+commit a494494d3e86e1218472fbfd054c13a5c9d92bcd
+Author: dc777 <dc777@cornell.edu>
+Date:   Mon Mar 25 09:23:11 2024 -0400
+
+    Created the .gitignore and .ocamlformat file
+
+commit db6d3d48e48bacacf8b0547df9bc9114f3b38a1d
+Author: dc777 <dc777@cornell.edu>
+Date:   Mon Mar 25 09:21:45 2024 -0400
+
+    Created and initialized dune project for initial commit.
+
+commit f4c3dee6234348b21ffb9176fc9d11df075693e9
+Author: dc777 <dc777@cornell.edu>
+Date:   Thu Mar 14 17:33:42 2024 -0400
+
+    Update README.md
+
+commit bbcc391d087381f4bff4b351cd49f0b590800356
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu Mar 14 16:55:52 2024 -0400
+
+    Update README.md
+
+commit b6dbfec7a766d811f8a51efae2d9bfa2c3c102b9
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Thu Mar 14 16:54:56 2024 -0400
+
+    Update README.md
+
+commit 63da04e626d86a914b2c3a695a50bfccc6919d7a
+Author: jdm454 <jdm454@cornell.edu>
+Date:   Thu Mar 14 16:53:41 2024 -0400
+
+    Update README.md
+
+commit d990126395f9a3833778f18a0aa680ff94b5376e
+Author: Anand Bannerji <ab2585@cornell.edu>
+Date:   Wed Feb 28 11:13:04 2024 -0500
+
+    Initial commit

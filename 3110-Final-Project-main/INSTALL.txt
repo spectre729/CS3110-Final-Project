@@ -1,0 +1,31 @@
+The following libraries were used in the project:
+batteries, bisect_ppx, ppx_inline_test, ounit2, and spectrum
+
+Most likely you are only missing spectrum since we have used the rest in class. If you are missing any of the libraries then:
+
+First make sure that your opam is up to date by running
+
+opam update
+opam upgrade
+
+Then install the libraries by running
+
+opam install <libaries>
+
+With <libraries> replaced with the name of the libraries you are missing. Ex:
+
+opam install spectrum
+opam install batteries bisect_ppx ppx_inline_test ounit2 spectrum
+
+
+You can build the program by running:
+
+dune build
+
+And you can run the program by running:
+
+dune exec bin/main.exe
+
+Running the following command will reset all three leaderboards to their default:
+
+dune exec bin/main.exe R
